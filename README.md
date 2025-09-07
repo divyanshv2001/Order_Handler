@@ -65,13 +65,19 @@ CREATE DATABASE orderdb CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 USE orderdb;
 ```
 ### Update DB credentials
+```bash
 spring.datasource.url=jdbc:mysql://localhost:3306/orderdb?useSSL=false&serverTimezone=UTC
 spring.datasource.username=root
 spring.datasource.password=your_password_here
+```
 ### Build & run
+```bash
 mvn clean package
 mvn spring-boot:run
- ### Validation
+```
+### Validation
+```bash
 SELECT * FROM orders;
 SELECT * FROM event_records;
 SELECT * FROM order_items;
+```
