@@ -60,8 +60,10 @@ git clone <your-repo-url>
 cd Backend_Order_Processor
 ```
 ### Create MySQL database:
+```bash
 CREATE DATABASE orderdb CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 USE orderdb;
+```
 ### Update DB credentials
 spring.datasource.url=jdbc:mysql://localhost:3306/orderdb?useSSL=false&serverTimezone=UTC
 spring.datasource.username=root
