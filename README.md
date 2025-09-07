@@ -56,8 +56,8 @@ src/main/resources/
 
 ### 1. Clone the repo
 ```bash
-git clone <your-repo-url>
-cd Backend_Order_Processor
+git clone https://github.com/divyanshv2001/Order_Handler.git
+cd Order_Handler
 ```
 ### Create MySQL database:
 ```bash
