@@ -51,7 +51,6 @@ src/main/resources/
 └─ events/sample-events.txt # Input events (JSON lines)
 
 ---
-
 ## ⚙️ Setup Instructions
 
 ### 1. Clone the repo
