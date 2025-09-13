@@ -27,7 +27,7 @@ Instead of exposing APIs, the system ingests events from a **text file with JSON
 ---
 
 ## 🛠️ Tech Stack
-- **Java 17**
+- **Java 24**
 - **Spring Boot 3.5.5**
 - **Spring Data JPA (Hibernate)**
 - **Spring AOP**
